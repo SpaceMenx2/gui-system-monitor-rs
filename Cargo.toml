@@ -1,0 +1,11 @@
+[package]
+name = "gui_sysmon"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+eframe = { version = "0.35.0", default-features = false, features = ["glow", "default_fonts"] }
+egui_extras = "0.35.0"
+egui_plot = "0.36.0"
+sysinfo = "0.38.4"
+mimalloc = "0.1"
